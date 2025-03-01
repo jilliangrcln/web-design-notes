@@ -1,5 +1,6 @@
-# Introduction to HTML5
+# Week 1: Learning About the Web
 
+## Introduction to HTML5
 ### Evolution of HTML
 - **HTML** - Hypertext Markup Language
   - Markup languages use *tags* to annotate 
@@ -72,3 +73,45 @@
 
 
 ## How to Use an Editor to Create an HTML File
+### Creating and Editing your files
+1. Decide how you will organize your files
+2. Decide on a naming convention
+    - dash-names, camelCase
+    - No spaces, consistent capitalization
+3. Decide on editor
+    - Windows (Notepad, Notepad++, Sublime, VS Code)
+    - Mac (TextEdit, TextWrangler, Sublime, VS Code)
+
+### Getting Started
+1. Open your editor
+2. Select Save or Save Aas and name your file. You may need to create a new folder first.
+3. Add Doctype, head, and body tags
+4. Save File (Ctrl + S) or (Command + S)
+5. Open in browser
+
+### Troubleshooting
+- My file opens in an editor instead of a browser.
+  - Right click and select "Open with..."
+- My Browser shows my tags
+  - Check that file extension is .html
+- I changed my code, but my page looks the same
+  - Refresh your browser
+  - Verify file name
+- I get "weird" characters
+  - Try typing code in by hand, not copy-and-paste
+
+## How to Use Replit
+### Online editors
+1. Google Docs and Microsoft 365 are common ways to share documents.
+2. Sharing code is a little different - especially when you want to share your webpage with someone
+3. Use Replit
+
+### IDEs
+1. IDEs are **Integreated Development Environments**, a fancy term for software that lets you write your code, run your code, share your code, etc.,
+2. Replit is an IDE for beginner programmers.
+
+### Which editors to use?
+- If want to work **locally**
+  - Built-in editor
+  - Sublime
+  - VSCode
