@@ -12,7 +12,7 @@
 1. Doctype
     - Version of HTML that you will be using
     - HTML5
-      - '<!DOCTYPE html>'
+      -  ``` <!DOCTYPE html> ``` 
 2. Head
     - Metadata
 3. Body
