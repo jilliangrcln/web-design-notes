@@ -1,4 +1,4 @@
-# Week 2: Structure of a Web Page
+i# Week 2: Structure of a Web Page
 
 ## Document Object Model (writing clean mode)
 - Basis of HTML5 is "New features should be based on HTML, CSS, the DOM, and JavaScript"
@@ -132,4 +132,138 @@
 
 ### ```<nav>```
 - A section of the page that links to other pages or to parts within the page.
-- Often found in the ```<header>``` tag
+- Often found in the ```<header>``` tag 
+
+### ```<footer>```
+- A section that contains info such as copyright data, related documents, and link to social media
+- Typically at the bottom of the page, but not required.
+
+### ```<figure>```
+- More semantic than ```<img>``` . Can include:
+  - Caption
+  - Multiple multimedia resources
+
+### Other New Tags
+- Structural Elements
+  - article, aside, main, menuitem, summary, section
+- Form Elements
+  - datalist, keygen, output
+- Input Types
+  - color, date email, list
+- Graphic Elements
+  - canvas, svg
+- Media Elements
+  - audio, embed, source, track, video
+
+## Images
+- Many file types are widely supported
+  - JPEG (.jpg and .jpeg), GIF, and PNG.
+  - SVG and BMP are additional options
+  - File extensions must be included
+- Every image must be downloaded, so size can be a factor
+- Every image requires an HTTP Request.
+
+### Image Sizes
+- When you link to an image the browser displays the image as big (or small) as the file
+  - The size is rarely optional
+- "Quick" solutions - change file, use width/height attributes.
+
+### Favicons
+- You can put image/logo/icon next to the title of your page (in the tab)
+- Must go in ```<head>``` section
+- ```<link rel="icon" type="image/png" href="imgs/logo.png">```
+
+### Alternative Text Attribute
+- Provides a textual alternative to non-text content
+- Read by screen readers
+- Displayed in place of images
+- Provides semantic meaning for search engines
+
+
+## Accessible Images
+### Alternative Text Attribute
+- Provides a textual alternative to non-text content
+- Read by screen readers
+- Displayed in place of images
+- Provides semantic meaning for search engines
+
+### Creating Good alt text
+- Be accurate
+- Be succinct
+- Don't be redundant
+- Don't include "picture of...", "graphic of..."
+
+### Empty Alt text
+- It is okay to leave alt text empty (null)
+  - Decorative images used for non-informative purpose
+- Do not skip the alt attribute!
+
+### Long Alt text
+- Some images may require elaborate alt text
+- Consider replacing alt text with link to separate page with full explanation
+
+### Emojis and Icons
+- Description of an emoji will be read by a screen reader, but not for an icon.
+- Since icons are not iamges, they cant use the alt attribute
+- Instead, icons can use an aria-label attribute
+- ```<i class="fa-brands fa-pinterest></i> <i class ="fa-brands fa-pinterest" aria-label="Pinterest"></i>```
+
+## Hyperlinks
+- **Links** are what make the Web a web.
+- The interlinked nature of the web leads to the "knowledge" that search engines appear to have.
+
+### Anchorlinks
+- The ```<a>``` tag stands for *anchor link*
+- Needs a hyper-reference AND content
+  - **href** - reference to location of new content
+  - **content** - the "clickable" part (text or image)
+  - ``` <a href ="link">Description</a>```
+
+### Types of links
+1. Absolute
+   - ![alt text](image-5.png)
+2. Relative
+   - ![alt text](image-6.png)
+3. Internal
+4. Graphical
+
+### Usability Issues
+- Make sure the clickable component has an informative name
+- Information in the images should be available to those who can't see the image.
+
+### Targets
+- Anchors can take a target attribute
+  - _self - default action
+  - _blank - open in new tab or window
+  - _top and _parent
+
+## Useful Tags
+- tags for blocks of code and simple snippets
+
+### Choosing your tags
+- **Generic** : ```<p>```,```<div>```
+- **Semantic** : ```<header>```,```<nav>```,```<footer>```,```<figure>```
+
+### Block Tags
+- Containers
+  - ```<article>```, ```<aside>```, ```<section>```, ```<main>```,...
+- ```<hr>```
+- ```<address>```
+- ```<blockquote>``` - has **cite** attribute
+- ```<details>``` with ```<summary>```
+
+### Inline Tags
+- ```<span>``` was the original inline tag for plain text
+- ```<cite>```
+- ```<abbr>```
+- ```<time>```
+- ```<code>```
+- ```<sub>``` and ```<sup>```
+
+### Tags that need "more"
+- ```<button>```
+- ```<meter>```
+- ```<progress>```
+- ```<iframe>``` - often used to embed documents
+- ```<bdo>``` attribute **dir** (ltr or rtl)
+- ```<map>``` with ```<area>``` - creates "clickable element in image" but needs JavaScript.
