@@ -121,7 +121,7 @@
 ### Using Semantic Tags
 - ```<div>``` was a way to group related content together
 - Divs almost always had special classes/ids associated with them
-  - ```
+- ```
   <div class="header">...</div>
   <div class="section">...</div>
   <div class="footer">...</div>
