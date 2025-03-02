@@ -14,7 +14,28 @@
     - HTML5
       -  ``` <!DOCTYPE html> ``` 
 2. Head
-    - Metadata
+    - Additional information used by the browser
+      - Meta data : language, title
+      - Supporting files - Javascript, Styling, Add-ons
+    - Other than title, meta-data is not displayed
 3. Body
     - Displayable content
+    - Bulk of your page
+    - Important to write well-formatted (tree-like) code.
+    - Most of the content is displayed by the browser, but there may be some meta data too.
+
+**Example**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+</head>
+<body>
+    This should be displayed by the browser
+</body>
+</html>
+```
+
 
