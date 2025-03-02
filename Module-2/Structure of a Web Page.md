@@ -1,4 +1,4 @@
-i# Week 2: Structure of a Web Page
+# Week 2: Structure of a Web Page
 
 ## Document Object Model (writing clean mode)
 - Basis of HTML5 is "New features should be based on HTML, CSS, the DOM, and JavaScript"
@@ -44,6 +44,8 @@ i# Week 2: Structure of a Web Page
   - Closer inner tags before outer ones
   - Use valid attributes
 - Browser will "fix" bad code, but not always well. Use a validator to check your code.
+
+
 
 ## HTML5 Tags and Syntax
 - Tags have a beginning and an end
@@ -114,6 +116,8 @@ i# Week 2: Structure of a Web Page
   - ![alt text](image-3.png)
 
 
+
+
 ## Semantic HTML5 Tags
 ### How to design
 ![alt text](image-4.png)
@@ -155,6 +159,8 @@ i# Week 2: Structure of a Web Page
 - Media Elements
   - audio, embed, source, track, video
 
+
+
 ## Images
 - Many file types are widely supported
   - JPEG (.jpg and .jpeg), GIF, and PNG.
@@ -178,6 +184,7 @@ i# Week 2: Structure of a Web Page
 - Read by screen readers
 - Displayed in place of images
 - Provides semantic meaning for search engines
+
 
 
 ## Accessible Images
@@ -208,6 +215,8 @@ i# Week 2: Structure of a Web Page
 - Instead, icons can use an aria-label attribute
 - ```<i class="fa-brands fa-pinterest></i> <i class ="fa-brands fa-pinterest" aria-label="Pinterest"></i>```
 
+
+
 ## Hyperlinks
 - **Links** are what make the Web a web.
 - The interlinked nature of the web leads to the "knowledge" that search engines appear to have.
@@ -236,6 +245,8 @@ i# Week 2: Structure of a Web Page
   - _self - default action
   - _blank - open in new tab or window
   - _top and _parent
+
+
 
 ## Useful Tags
 - tags for blocks of code and simple snippets
