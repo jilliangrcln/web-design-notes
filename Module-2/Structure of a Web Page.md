@@ -126,5 +126,23 @@
   <div class="section">...</div>
   <div class="footer">...</div>
   ```
-### ```<div>```
+### ```<header>```
+- A group of introductory or navigational aids: title, navigation links, etc.,
+- ```<header>
+        <h1>This is the Title</h1>
+        <h2>The author is Colleen</h2>
+    </header>```
+- Not to be confused with ```<head>``` or the different headings
 
+### ```<nav>```
+- A section of the page that links to other pages or to parts within the page.
+- ```
+<nav>
+    <ul>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+</nav>
+```
+- Often found in the ```<header>``` tag
