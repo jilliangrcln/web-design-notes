@@ -128,10 +128,11 @@
   ```
 ### ```<header>```
 - A group of introductory or navigational aids: title, navigation links, etc.,
-- ```<header>
-        <h1>This is the Title</h1>
-        <h2>The author is Colleen</h2>
-    </header>```
+- ```
+<header>
+    <h1>This is the Title</h1>
+    <h2>The author is Colleen</h2>
+</header>```
 - Not to be confused with ```<head>``` or the different headings
 
 ### ```<nav>```
