@@ -48,7 +48,7 @@
 ## HTML5 Tags and Syntax
 - Tags have a beginning and an end
 - Some tags have *attributes* (src, href, etc.,)
-![alt text](image-1.png)
+- ![alt text](image-1.png)
 
 ### Display
 - One of the most important attributes of an element in its display. The two most common are **block** and **inline**
