@@ -31,3 +31,12 @@
   - 38% soldiers, 31% of marines, and 49% of national guard members returning from combat report psychological conditions such as TBI and PTSD
   - Cognitive disabilities number greater than physical and perceptual disabilities combined
 
+- More Stats
+  - 8.3% of the U.S. population have 2 or more disabilities
+  - 40,000 people in the U.S. are both deaf and blind
+  - 41% of adults 65 and odler have a Disability
+  - 8.7 million people with disabilities are poor
+  - 70% of disabled are unemployed or underemployed
+
+- The Web offers unprecedented opportunities for disabled
+- 
