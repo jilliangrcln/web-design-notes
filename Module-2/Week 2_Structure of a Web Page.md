@@ -278,3 +278,9 @@
 - ```<iframe>``` - often used to embed documents
 - ```<bdo>``` attribute **dir** (ltr or rtl)
 - ```<map>``` with ```<area>``` - creates "clickable element in image" but needs JavaScript.
+
+
+## Links and files for cheat sheets
+- **HTML Emoji Cheat Sheets** : https://htmlcheatsheet.com/
+- **HTML Semantics and Accessibility Cheat Sheet** : https://webaim.org/resources/htmlcheatsheet/
+- **HTML5 Complete Cheat Sheet 2023** : [Open PDF File]()
