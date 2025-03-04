@@ -39,4 +39,68 @@
   - 70% of disabled are unemployed or underemployed
 
 - The Web offers unprecedented opportunities for disabled
-- 
+  - Education
+  - News 
+  - Commerce
+  - Social 
+  - Benefits of web are amplified for disabled
+  - Web is an enabling technology
+
+## What is Web Accessibility?
+- Making the web accessible for the *widest possible audience*
+- This audience includes temporarily able-bodied users (TABs)
+- Currently, online infrastructure is *hostile* to those with disabilities
+- Inseparable from SEO, mobile and usability: improve one and you improve the others
+- **Adherence to standards** - best way to accomplish accessibility.
+
+### W3C WCAG 2.0
+- W3C Web Content Accessibility Guidelines are principle-based, not technology-based.
+- The four principles (**POUR**)
+  - Perceivable
+  - Operable
+  - Understandable
+  - Robust
+
+### Validating site 
+- Why site should be validated?
+  - Browsers are the helicopter parents of programming
+  - As your pages become more complex "hidden" areas can be devastating
+
+### Three approaches
+1. Validate by URI
+2. Validate by Filename
+3. Valdiate by Direct Input
+
+### Accessibility Validation
+- You can use wave.webaim.org to validate accessibility
+- You can install an extension to check local pages
+
+## Hosting site
+- Requirements:
+  - Domain name
+  - Hosting company
+  
+### Domain names
+- Typically purchased for multiple years at cheap related
+- Most common is .com, but other extensions are gaining acceptance
+- *Domain names are useless on their own*
+
+### Hosting
+- What is your URL right now?
+- You need a registered IP Address to connect with your domain name
+- Hosting services vary
+  - Free 
+  - Mid-range
+  - Full-service
+
+### Free Services 
+- Little/no control of domain name
+- Limited tools
+- Advertising and redirects
+- Familiar look and feel across them
+
+### Paid services
+- Tend to have better tools
+- Support is available
+- But check for free services through work/school
+
